@@ -13,7 +13,7 @@ const Router = () => {
     window.addEventListener('hashchange', setRoute)
     return () =>  window.removeEventListener('hashchange', setRoute)
   }, [])
-  function setRoute() {
+  const setRoute = () => {
     const location = window.location.href.split('/')
     const pathname = location[location.length-1]
     setCurrent(pathname ? pathname : 'home')
@@ -24,7 +24,7 @@ const Router = () => {
       <Routes>
         <Route exact path="/" element={<Public />}/>
         <Route exact path="/protected" element={<Protected />} />
-        <Route exact path="/profile" element={<Profile />}/>
+        <Route exact path="/profile" element={<Profile />} />
         <Route element={<Public />}/>
       </Routes>
     </HashRouter>

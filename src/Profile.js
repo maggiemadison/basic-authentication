@@ -3,12 +3,12 @@ import { Auth } from 'aws-amplify'
 import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
 import Container from './Container'
 
-function Profile() {
+const Profile = () => {
   useEffect(() => {
     checkUser()
   }, [])
   const [user, setUser] = useState({})
-  async function checkUser() {
+  const checkUser = async() => {
     try {
       const data = await Auth.currentUserPoolUser()
       const userInfo = { username: data.username, ...data.attributes, }
