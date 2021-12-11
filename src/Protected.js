@@ -3,7 +3,6 @@ import { Auth } from 'aws-amplify'
 import Container from './Container'
 import { useNavigate } from 'react-router-dom'
 
-  return (
 
 const Protected = (props) => {
     const navigate = useNavigate();
