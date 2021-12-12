@@ -12,7 +12,6 @@ const ConfirmSignUp = (props) => {
         style={styles.input}
       />
       <Button onClick={props.confirmSignUp} title="Confirm Sign Up" />
-      <h3>Please check your email for the confirmation code</h3>
     </div>
     
   )
