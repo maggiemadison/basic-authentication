@@ -1,8 +1,8 @@
-import React from 'react'
-import Button from './Button'
-import { styles } from './Form'
+import React from 'react';
+import Button from './Button';
+import { styles } from './Form';
 
-function SignIn({ signIn, updateFormState }) {
+const SignIn = ({ signIn, updateFormState }) => {
   return (
     <div style={styles.container}>
       <input
@@ -21,6 +21,6 @@ function SignIn({ signIn, updateFormState }) {
       <Button onClick={signIn} title="Sign In" />
     </div>
   )
-}
+};
 
-export default SignIn
+export default SignIn;

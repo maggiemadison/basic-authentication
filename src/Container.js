@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Container = ({ children }) => (
   <div style={styles.container}>
@@ -13,4 +13,4 @@ const styles = {
   }
 }
 
-export default Container
+export default Container;

@@ -1,5 +1,5 @@
-import React from 'react'
-import Container from './Container'
+import React from 'react';
+import Container from './Container';
 
 const Public = () => {
   return (
@@ -9,4 +9,4 @@ const Public = () => {
   )
 }
 
-export default Public
+export default Public;

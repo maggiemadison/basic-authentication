@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-export default function Button({ onClick, title }) {
+const Button = ({ onClick, title }) => {
   return (
     <button style={styles.button} onClick={onClick}>
       {title}
@@ -24,3 +24,4 @@ const styles = {
     boxShadow: '0px 1px 3px rgba(0, 0, 0, .3)',
   },
 }
+export default Button;

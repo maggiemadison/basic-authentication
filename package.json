@@ -2,6 +2,7 @@
   "name": "basic-authentication",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://maggiemadison/basic-authentication",
   "dependencies": {
     "@aws-amplify/ui-react": "^1.2.22",
     "@testing-library/jest-dom": "^5.16.1",

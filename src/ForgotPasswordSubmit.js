@@ -1,6 +1,6 @@
-import React from 'react'
-import Button from './Button'
-import { styles } from './Form'
+import React from 'react';
+import Button from './Button';
+import { styles } from './Form';
 
 function ForgotPasswordSubmit(props) {
   return (
@@ -23,4 +23,4 @@ function ForgotPasswordSubmit(props) {
   )
 }
 
-export default ForgotPasswordSubmit
+export default ForgotPasswordSubmit;

@@ -1,8 +1,8 @@
-import React from 'react'
-import Button from './Button'
-import { styles } from './Form'
+import React from 'react';
+import Button from './Button';
+import { styles } from './Form';
 
-function SignUp({ updateFormState, signUp }) {
+const SignUp = ({ updateFormState, signUp }) => {
   return (
     <div style={styles.container}>
       <input
@@ -27,6 +27,6 @@ function SignUp({ updateFormState, signUp }) {
       <Button onClick={signUp} title="Sign Up" />
     </div>
   )
-}
+};
 
-export default SignUp
+export default SignUp;

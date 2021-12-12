@@ -1,8 +1,8 @@
-import React from 'react'
-import Button from './Button'
-import { styles } from './Form'
+import React from 'react';
+import Button from './Button';
+import { styles } from './Form';
 
-function ConfirmSignUp(props) {
+const ConfirmSignUp = (props) => {
   return (
     <div style={styles.container}>
       <input
@@ -16,4 +16,4 @@ function ConfirmSignUp(props) {
   )
 }
 
-export default ConfirmSignUp
+export default ConfirmSignUp;
