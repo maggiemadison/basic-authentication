@@ -5,6 +5,7 @@ import { styles } from './Form';
 const ConfirmSignUp = (props) => {
   return (
     <div style={styles.container}>
+      <h3>Please check your email for the confirmation code</h3>
       <input
         name='confirmationCode'
         placeholder='Confirmation Code'
